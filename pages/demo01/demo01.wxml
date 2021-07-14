@@ -1,0 +1,9 @@
+<navigator url="/pages/home/home" open-type="navigate">
+  <button>开始拍照</button>
+</navigator>
+<navigator url="/pages/home/home" open-type="navigate">
+  <button>demo02</button>
+</navigator>
+<navigator url="/pages/home/home" open-type="navigate">
+  <button>图片处理</button>
+</navigator>

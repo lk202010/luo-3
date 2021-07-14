@@ -1,0 +1,23 @@
+<view>
+  <image src="2.jpg" mode="aspectFit"></image>
+  <!-- <canvas id="mobileCanvas"  type="2d"  width="500" height="500"></canvas> -->
+  <!-- <canvas style="width: 224px; height: 224px;position:absolute;left:-300px;top:-300px;" canvas-id="mobileCanvas"></canvas> -->
+  <canvas style="width:{{imgwidth}}rpx; height:{{imgheight}}rpx;" canvas-id='canvas'></canvas>
+  <text>图片的大小：{{imgwidth}}px*{{imgheight}}px</text>
+  <!-- <canvas style="width:{{imgwidth}}rpx; height:{{imgheight}}rpx;" canvas-id='canvas1'></canvas> -->
+
+  <!-- <view class="usermotto">
+    <text>检测结果：</text>
+    <text>{{value}}</text> 
+    <image src="{{2.jpg}}"></image>
+  </view> -->
+
+
+  <view class='userbtn'>
+        <button bindtap='bindViewTap'>选择图像</button>
+        <button bindtap="takePhoto">相机拍照</button>
+        <button bindtap="getImg"> 开始检测 </button>
+  </view>
+
+</view>
+<!-- <canvas id="demo" type="2d" style="width: 300px; height: 200px;"></canvas> -->

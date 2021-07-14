@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/demo01/demo01",
+    "pages/demo02/demo02",
+    "pages/demo03/demo03",
+    "pages/home/home",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/getting-started/index",
+    "pages/mobilenet/mobilenet",
+    "pages/mobilenet_local/index",
+    "pages/save_local/index",
+    "pages/mnist/index.wxml"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

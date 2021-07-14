@@ -1,0 +1,29 @@
+/* pages/request/qingqiu.wxss *//**index.wxss**/
+.imagesize{
+  width:100%;
+  height: 800rpx;
+ }
+ /* .imagesize image { 
+   width:100%;
+   height: 800rpx;
+ } */
+  
+ .usermotto {
+   width:100%;
+   height: 550rpx;
+   text-align: left;
+   margin-top: 20px;
+ }
+ .userbtn
+ {
+    display:flex;
+    width: 92%;
+    margin-top: 20rpx;
+    justify-content: center;
+ }
+ .userbtn button
+ {
+    background-color: #ff8719;
+    color: white;
+    border-radius: 25rpx;
+ }
